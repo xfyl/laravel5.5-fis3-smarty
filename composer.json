@@ -23,7 +23,7 @@
   },
   "autoload": {
     "psr-0": {
-      "taogov\\Smarty\\": "src/"
+      "xfeng\\Smarty\\": "src/"
     }
   }
 }
