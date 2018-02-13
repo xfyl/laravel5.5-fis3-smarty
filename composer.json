@@ -1,0 +1,29 @@
+{
+  "name": "xfeng/smarty",
+  "description": "改自latrell/smarty，增加配置项，让其支持fis smarty插件的配置项.",
+  "keywords": [
+    "Laravel",
+    "Smarty",
+    "View",
+    "Templating",
+    "fis",
+    "fis smarty"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "xfeng",
+      "email": "457143680@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "illuminate/support": "5.5.*",
+    "smarty/smarty": "3.1.27"
+  },
+  "autoload": {
+    "psr-0": {
+      "taogov\\Smarty\\": "src/"
+    }
+  }
+}
