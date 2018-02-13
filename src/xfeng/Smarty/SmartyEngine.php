@@ -1,5 +1,5 @@
 <?php
-namespace taogov\Smarty;
+namespace xfeng\Smarty;
 
 use Illuminate\Contracts\View\Engine;
 use Illuminate\View\Compilers\CompilerInterface;
