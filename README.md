@@ -5,7 +5,7 @@ Laravel 5.5 + Fis3 静态资源管理系统
 ## 安装
 
 ```
-composer require taogov/smarty
+composer require xfeng/smarty
 ```
 
 ## 配置
@@ -13,10 +13,10 @@ composer require taogov/smarty
 ```php
     'providers' => array(
         // ...
-        taogov\Smarty\SmartyServiceProvider::class,
+        xfeng\Smarty\SmartyServiceProvider::class,
     )
 ```
-* 执行发布配置文件：`php artisan vendor:publish --provider="taogov\Smarty\SmartyServiceProvider" --tag=config --tag=plugins`
+* 执行发布配置文件：`php artisan vendor:publish --provider="xfeng\Smarty\SmartyServiceProvider" --tag=config --tag=plugins`
 
 
 ## 使用
